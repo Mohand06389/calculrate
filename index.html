@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcul de Moyenne Semestrielle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+        <img src="image1.png" alt="Logo Application" id="splash-logo">
+    </div>
+
+    <!-- Contenu principal -->
+    <div id="main-content" style="display: none;">
+        <div class="container">
+            <h1>📊 Calcul de Moyenne Semestrielle</h1>
+            <form id="form-module">
+                <label for="num-modules">Nombre de modules :</label>
+                <input type="number" id="num-modules" name="num-modules" min="1" max="10" required>
+                <button type="button" onclick="nextPage()">Suivant</button>
+            </form>
+            <div id="module-form-container"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
